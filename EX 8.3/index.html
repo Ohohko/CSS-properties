@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 8.3</title>
+    <style>
+    .one{
+        border: 2px solid black;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        z-index: 2;
+        background-color: white;
+
+    }
+    .two{
+        border: 2px solid black;
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        top: 200px;
+        left: 230px;
+        z-index: -1;
+        background-color: white;
+    }
+    .three{
+        border: 2px solid black;
+        width: 980px;
+        height: 300px;
+        position: absolute;
+        bottom: 150px;
+        z-index: 3;
+        background-color: white;
+
+    }
+    .four{
+        border: 2px solid black;
+        width: 250px;
+        height: 980px;
+        position: absolute;
+        left:550px;
+        z-index: 4;
+        background-color: white;
+
+
+    }
+    </style>
+</head>
+<body>
+    <div class="one">one</div>
+    <div class="two">two</div>
+    <div class="three">three</div>
+    <div class="four">four</div>
+</body>
+</html>
